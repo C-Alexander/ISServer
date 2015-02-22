@@ -5,5 +5,6 @@ public class PacketData {
     public PlanetData planetData;
     public SolarSystemData solarSystemData;
     public LoginData loginData;
+    public ChatData chatData;
     public String message;
 }
