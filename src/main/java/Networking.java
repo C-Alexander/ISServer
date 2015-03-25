@@ -39,6 +39,7 @@ public class Networking extends WebSocketServer {
 
     @Override
     public void onClose( WebSocket conn, int code, String reason, boolean remote ) {
+        PlayerManager.getInstance().removePlayer(conn);
     }
 
     @Override
